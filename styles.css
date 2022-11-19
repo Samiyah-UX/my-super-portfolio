@@ -1,13 +1,23 @@
 body {
     background: #FFECEF;
+    margin: 20px;
+    padding: 20px;
 }
 
 h1 {
 color: #000000
+margin: 10px;
+padding: 10;
 }
 
 #navbar a{
     color: #00ABB3
+}
+
+.pretty-me{
+    width: 300px;
+    hight: 200px;
+    border: 10px solid #59C1BD
 }
 
 ul li{
