@@ -1,105 +1,148 @@
 body {
-    max-width: 1920px;
-    background: white;
-    margin: 20px;
-    font-family: Avenir;
-    /* padding: 20px; */
+  max-width: 1920px;
+  background: white;
+  margin: 20px;
+  font-family: Avenir;
+  /* padding: 20px; */
 }
 
 .intro {
-    color: black;
-    display: flex;
+  color: black;
+  display: flex;
 }
 
-/* h1 {
-color: #000000
-margin: 10px;
-padding: 10;
-} */
+h1 {
+  color: #000000;
+  margin: 10px;
+  padding: 10;
+}
 
 .nav-wrap {
-    width: 800px;
-    margin: 40px 300px 10px;
-    padding: 0;
-    align-items: center;
-    font-size: 16px;
-    display: flex;
-    justify-content: space-evenly;
+  width: 800px;
+  margin: 40px 300px 10px;
+  padding: 0;
+  align-items: center;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .navbar {
-    color: green;
+  color: green;
 }
 
 .hello {
-    text-transform: uppercase;
-    text-align: center;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .hello:hover {
-    color:#D989B5;
+  color: #d989b5;
 }
 
-.you:hover{
-    color:deepskyblue
+.you:hover {
+  color: deepskyblue;
 }
 
 .myname:hover {
-    color: gold;
+  color: gold;
 }
 
 .welcome {
-    font-weight: 1000;
-    padding: 80px 5px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
+  font-weight: 1000;
+  padding: 80px 5px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 .test {
-    text-decoration: none;
-    color: black;
-    font-weight: 800;
-    padding: 18px;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  padding: 18px;
+  text-transform: uppercase;
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .flex2 {
-    padding: 50px;
-    max-width: 600px;
+  padding: 50px;
+  max-width: 600px;
 }
 
-.pretty-me{
-    border-radius: 50px;
+.pretty-me {
+  border-radius: 50px;
 }
 
-/* .project2{
-    padding: 50px 5px;
-    width: 899px;
-    height: 400px;
-    background-color: #aec6cf;
-} */
+.myprojects-title{
+    margin-top: 50px;
+}
 
+.project2 {
+  margin: 50px 50px;
+  width: 899px;
+  height: 400px;
+  background-color: #aec6cf;
+  display: flex;
+}
 
-/* .project3 {
-    padding: 50px 5px;
-    width: 899px;
-    height: 400px;
-    background-color: #aec6cf;
-} */
+.orkaan {
+  font-weight: 300;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: baskerville;
 
-/* .project4 {
-    padding: 50px 5px;
-    width: 899px;
-    height: 400px;
-    background-color: #aec6cf;
-} */
+}
+
+.project2img {
+  width: 450px;
+  height: 300px;
+  margin: 50px 0px;
+  box-shadow: 5px 4px 9px grey;
+}
+
+.project3 {
+  margin: 100px 50px;
+  width: 899px;
+  height: 400px;
+  background-color: #f1e3ad;
+  display: flex;
+  align-items: center;
+  font-family: baskerville;
+}
+
+.project3img {
+  width: 165px;
+  height: auto;
+  margin-left: 50px;
+  box-shadow: 5px 4px 9px grey;
+  border-radius: 20px;
+}
+
+.project4 {
+  margin: 100px 50px;
+  width: 899px;
+  height: 400px;
+  background-color: #cff0cc;
+  display: flex;
+  align-items: center;
+  font-family: baskerville;
+}
+
+.project4img {
+  width: 165px;
+  height: auto;
+  margin-left: 50px;
+  box-shadow: 5px 4px 9px grey;
+  border-radius: 20px;
+}
 
 /* ul li{
     list-style: none;
@@ -109,15 +152,24 @@ padding: 10;
     content: "* ";
 } */
 
-.secondary-titles{
-    background: #D989B5;
-    width: 300px;
-    height: 50px;
-    text-align: center;
-    border-radius: 50px;
-    box-shadow: 5px 10px 50px #F7A4A4;
+.secondary-titles {
+  background: #d989b5;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 5px 10px 50px #f7a4a4;
 }
 
-.secondary-titles:hover{
-    background: #59C1BD;
+.secondary-titles:hover {
+  background: #59c1bd;
+}
+
+.card-text{
+    font-style: avenir;
+    font-weight: 400px;
+}
+
+.btn-primary{
+    color:#000000;
 }
