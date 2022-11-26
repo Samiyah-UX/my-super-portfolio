@@ -76,19 +76,22 @@ h1 {
 }
 
 .pretty-me {
-  border-radius: 50px;
+  border-radius: 15px;
 }
 
 .myprojects-title{
-    margin-top: 50px;
+    margin-top: 150px;
+    margin-left: 170px;
+    font-family: avenir;
 }
 
 .project2 {
   margin: 50px 50px;
   width: 899px;
   height: 400px;
-  background-color: #aec6cf;
+  background-color: #93C7F8;
   display: flex;
+  margin-left: 170px;
 }
 
 .orkaan {
@@ -98,24 +101,23 @@ h1 {
   justify-content: center;
   align-items: center;
   font-family: baskerville;
-
 }
 
 .project2img {
   width: 450px;
   height: 300px;
   margin: 50px 0px;
-  box-shadow: 5px 4px 9px grey;
 }
 
 .project3 {
   margin: 100px 50px;
   width: 899px;
   height: 400px;
-  background-color: #f1e3ad;
+  background-color: #FFE993;
   display: flex;
   align-items: center;
   font-family: baskerville;
+  margin-left: 170px;
 }
 
 .project3img {
@@ -130,10 +132,11 @@ h1 {
   margin: 100px 50px;
   width: 899px;
   height: 400px;
-  background-color: #cff0cc;
+  background-color: #97E6CE;
   display: flex;
   align-items: center;
   font-family: baskerville;
+  margin-left: 170px;
 }
 
 .project4img {
@@ -168,6 +171,34 @@ h1 {
 .card-text{
     font-style: avenir;
     font-weight: 400px;
+}
+
+.card{
+    margin-left: 170px;
+    margin-bottom: 100px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-columns{
+    display: flex;
+}
+
+.card-title-padding{
+    padding: 30px;
+}
+
+.blockquote{
+    text-align: center;
+    font-family: baskerville;
+    font-weight: bold;
+}
+
+.blockquote-footer{
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 .btn-primary{
